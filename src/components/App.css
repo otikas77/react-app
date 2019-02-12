@@ -1,0 +1,55 @@
+.sign-in{
+	width: 500px;
+	min-height: 566px;
+	border: 3px solid #AD90D2;
+	background-color: white;
+}
+
+.sign-in h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#wrapper{
+	min-height: 396px;
+}
+
+.wrapper-for-inputs{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper-for-inputs input{
+	margin-bottom: 50px;
+	height: 20px;
+	width: 80%;
+}
+
+.enter{
+	position: relative;
+	top: 20px;
+	width: 70%;
+	height: 50px;
+	margin-top: 80px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-color: #EAEAEA;
+	border: 1px solid black;
+	line-height: 50px;
+	text-align: center;
+}
+
+.enter:hover{
+	background-color: #B8B8B8;
+}
+
+.wrapper-for-button{
+	display: flex;
+	justify-content: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
