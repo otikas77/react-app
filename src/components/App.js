@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import './App.css'
-import ChooseAvatar from "./Chose-avatar"
+import './App.css';
+import ChooseAvatar from "./Chose-avatar";
+import {Link} from "react-router-dom";
 
 class App extends Component{
 
@@ -39,7 +40,7 @@ class App extends Component{
 				</div>
 			</div>
 			<div className="wrapper-for-button">
-				<a className="enter" href="/react-app/comments">Enter</a>
+				<Link className="enter" to="/react-app/comments">Enter</Link>
 			</div>	
 		</div>
 		
