@@ -10,8 +10,8 @@ import Comments from "./components/Comments";
 ReactDOM.render(( 	
 	<BrowserRouter>
 		<div>
-			<Route exact path="/" component={App} />
-			<Route path="/comments" component={Comments} />
+			<Route exact path="/react-app" component={App} />
+			<Route path="/react-app/comments" component={Comments} />
 		</div>
 	</BrowserRouter>	
 	), document.getElementById('root'));

@@ -39,7 +39,7 @@ class App extends Component{
 				</div>
 			</div>
 			<div className="wrapper-for-button">
-				<a className="enter" href="/comments">Enter</a>
+				<a className="enter" href="/react-app/comments">Enter</a>
 			</div>	
 		</div>
 		
