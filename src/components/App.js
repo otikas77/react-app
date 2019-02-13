@@ -40,7 +40,7 @@ class App extends Component{
 				</div>
 			</div>
 			<div className="wrapper-for-button">
-				<Link className="enter" to="/#/comments">Enter</Link>
+				<Link className="enter" to="/comments">Enter</Link>
 			</div>	
 		</div>
 		
