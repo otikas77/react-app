@@ -9,11 +9,11 @@ class Comments extends React.Component{
 				<div className="main">
 					<div className="inputField"></div>
 					<div className="chatField">
-						<div className="wrapper-for-avatar"><img className="defaultAvatar" src={DEFAULTAVATAR} /></div>
+						<div className="wrapper-for-avatar"><img className="defaultAvatar" src={DEFAULTAVATAR} alt="default avatar"/></div>
 						<div className="wrapper-for-message">
 							<div className="nameLastName">
-								<p>Name:  </p>
-								<p>Last Name:  </p>
+								<p>Name:</p>
+								<p>Last Name:</p>
 							</div>
 							
 							<textarea className="message" type="text" ></textarea>
